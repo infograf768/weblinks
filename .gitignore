@@ -51,7 +51,7 @@ RoboFile.ini
 tests/acceptance.suite.yml
 tests/*/*Tester.php
 tests/_support/_generated/*TesterActions.php
-tests/joomla-cms3*
+tests/joomla*
 tests/_output*
 selenium-server-standalone.jar
 codecept.phar
@@ -60,5 +60,5 @@ tests/cache
 
 # Package building related
 /dist
-jbuild.ini
+jorobo.ini
 

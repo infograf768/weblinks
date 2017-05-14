@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3.1" type="plugin" group="search" method="upgrade">
+<extension version="3.5" type="plugin" group="search" method="upgrade">
 	<name>plg_search_weblinks</name>
 	<author>Joomla! Project</author>
 	<creationDate>##DATE##</creationDate>
@@ -12,21 +12,24 @@
 	<files>
 		##FILES##
 	</files>
-	<languages folder="administrator/language">
+	<languages folder="language">
 		##LANGUAGE_FILES##
 	</languages>
 	<config>
 		<fields name="params">
-
 			<fieldset name="basic">
-				<field name="search_limit" type="text"
+				<field
+					name="search_limit"
+					type="text"
 					default="50"
 					description="JFIELD_PLG_SEARCH_SEARCHLIMIT_DESC"
 					label="JFIELD_PLG_SEARCH_SEARCHLIMIT_LABEL"
 					size="5"
 				/>
 
-				<field name="search_content" type="radio"
+				<field
+					name="search_content"
+					type="radio"
 					class="btn-group btn-group-yesno"
 					default="0"
 					description="JFIELD_PLG_SEARCH_ALL_DESC"
@@ -36,7 +39,9 @@
 					<option value="0">JOFF</option>
 				</field>
 
-				<field name="search_archived" type="radio"
+				<field
+					name="search_archived"
+					type="radio"
 					class="btn-group btn-group-yesno"
 					default="0"
 					description="JFIELD_PLG_SEARCH_ARCHIVED_DESC"
